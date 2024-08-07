@@ -1,69 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Gallery</title>
-    <style>
-      .container {
-        max-width: 960px;
-        width: 90%;
-        margin: 0 auto;
-      }
-      .row {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-      }
-      .column {
-        flex-basis: 16.666%;
-        box-sizing: border-box;
-        padding: 8px;
-      }
-      .box {
-        height: 144px;
-        background-color: #914e67;
-      }
-
-      @media screen and (max-width: 1024px) {
-        .column {
-          flex-basis: 33.33%;
-        }
-      }
-      @media screen and (max-width: 768px) {
-        .column {
-          flex-basis: 50%;
-        }
-      }
-      @media screen and (max-width: 414px) {
-        .column {
-          flex-basis: 100%;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="column">
-          <img src="placeholder-image.png/100" alt="Image Title" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Responsive Gallery</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
         </div>
-        <div class="column">
-          <div class="box"></div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
         </div>
-        <div class="column">
-          <div class="box"></div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
         </div>
-        <div class="column">
-          <div class="box"></div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title</div>
         </div>
-        <div class="column">
-          <div class="box"></div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
         </div>
-        <div class="column">
-          <div class="box"></div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
         </div>
-      </div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
+        </div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
+        </div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
+        </div>
+        <div class="grid-item">
+            <img src="placeholder-image.png" alt="Image Title">
+            <div class="overlay">Image Title </div>
+        </div>
     </div>
-  </body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
+</body>
 </html>
